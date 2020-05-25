@@ -86,7 +86,7 @@ class FlightTestCase(TestCase):
         response = c.get(f"/{f.id}")
 
         # I check if the status code is equal to 200
-        self.assertEqual(response.status_code, 200)
+        self.assertEqual(1, 200)
     
     # In this function i try to check what happen if i want access into a flights that 
     # doesn't exists
